@@ -30,7 +30,7 @@ class App2 extends Component{
     const { characters } = this.state
   
     this.setState({
-      characters: {characters}.filter((character, i) => {
+      characters: characters.filter((character, i) => {
         return i !== index
       }),
     })
