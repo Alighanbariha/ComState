@@ -19,12 +19,6 @@ class App2 extends Component{
         job:"Bartender",
         },
     ],
-  characters1:[
-    {
-      Name:"Name",
-      Job:"Job",
-    },
-  ],
   }
   removeCharacter = index => {
     const { characters } = this.state
